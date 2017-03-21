@@ -1,12 +1,9 @@
-<p>
-    {{question}}</p>
+<p>{{question}}</p>
 
 
 <div ng-repeat="answer in answers">
-    <input type="button" class="sal" value={{answer}}>
+    <input onclick="myFunction()" type="button" value={{answer}}>
 </div>
 
-
-
-
+<br><br>
 <button type="button" name="button" ng-click="nextQuestion()">Next</button>
