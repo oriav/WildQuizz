@@ -1,5 +1,12 @@
-<h1>Hello World</h1>
+<p>
+    {{question}}</p>
 
-<!--> essai call Api <-->
-<p>{{question}}</p>
+
+<div ng-repeat="answer in answers">
+    <input type="button" class="sal" value={{answer}}>
+</div>
+
+
+
+
 <button type="button" name="button" ng-click="nextQuestion()">Next</button>
